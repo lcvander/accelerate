@@ -14,7 +14,10 @@
  * @since Twenty Fourteen 1.0
  */
 
-get_header(); ?>
+get_header(); ?> 
+
+<pre><?php print_r($wp_query); exit; ?></pre>
+
 	<!-- BLOG PAGE -->
 	<section class="blog-page">
 		<div class="site-content">
@@ -56,3 +59,4 @@ get_header(); ?>
 	</section>
 	<!-- END blog page -->
 <?php get_footer();
+?>
