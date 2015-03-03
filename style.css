@@ -34,10 +34,14 @@ color: #878787;
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+
 #masthead nav ul li{
 float: left;
-margin: 0 10px;
+margin: -10px 10px;
+padding-top: 0;
+text-transform: uppercase;
 }
+
 
 .blog-post {
 	width: 50%;
@@ -85,3 +89,79 @@ div.case-study-images img{
 margin-bottom:50px;
 border:1px solid #dddddd;
 }
+
+section.featured-work {
+text-align:center;
+}
+
+section.featured-work h3 {
+text-align:center;
+text-transform: uppercase;
+}
+
+
+li.individual-featured-work {
+text-align: center;
+list-style-type: none;
+}
+
+.page-id-47364 #content{
+width: 700px;
+margin: 50px 130px 0px 130px;
+}
+
+#ninja_forms_field_1_div_wrap {
+width: 325px;
+margin-right: 50px;
+float: left;
+}
+
+#ninja_forms_field_2_div_wrap {
+width: 325px;
+float: left;
+}
+
+#ninja_forms_field_3 {
+clear: both; 
+width: 700px;
+float: left;
+}
+
+#ninja_forms_field_1_label, #ninja_forms_field_2_label, #ninja_forms_field_3_label{
+font-weight: normal;
+}
+
+#ninja_forms_field_5 {
+	float: right;
+	background: none repeat scroll 0 0 #45ac9d;
+	color: white;
+	font-family: "montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+/*ABOUT*/
+
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 220px;
+    margin: 0 0 80px;
+    padding: 50px 0;
+	}
+	
+.about-hero {
+	text-align:center;
+	margin: 100px;
+}
+
+.about-hero h3 {
+color: #fff;
+}
+
+.about-services li {
+list-style: none;
+margin: 100px;
+}
+
